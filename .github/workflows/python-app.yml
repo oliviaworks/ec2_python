@@ -32,7 +32,7 @@ jobs:
     - name: Render Deploy 
       uses: johnbeynon/render-deploy-action@v0.0.8
       with:
-        service-id: ec2_python
+        service-id: srv-cro6up9u0jms73c7atv0
         api-key: rnd_q92uswlcX3aIVDNJXCQS0tE65vuz
     
     - name: Deploying EC2
