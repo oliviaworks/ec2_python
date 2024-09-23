@@ -40,5 +40,5 @@ jobs:
             echo "Conectando-se ao EC2"
             echo "${{ secrets.KEY_OLIVIA_EC2 }}" > private_key
             chmod 600 private_key
-            ssh -o StrictHostKeyChecking=no -i private_key ubuntu@ec2-54-208-255-22.compute-1.amazonaws.com "
+            ssh -o StrictHostKeyChecking=no -i private_key ubuntu@ec2-44-215-228-242.compute-1.amazonaws.com "
                    cd ec2_python/; git pull; ./executar.sh"
